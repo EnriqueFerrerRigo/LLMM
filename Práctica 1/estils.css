@@ -1,0 +1,139 @@
+body { /*estilizo el body a mi gusto y le pongo una imagen de fondo*/
+    background-image: url(landscape1.jpg);
+    background-size:cover;
+}
+
+header{ /*con este border bottom estoy trazando una linea blanca para separar los contenidos de mi pagina web*/
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+img{ /*ajusto las medidas y los margenes de mi imagen*/
+    width: 20%;
+    margin-top:5%;
+    margin-left:38%;
+    margin-bottom:5%;
+}
+
+.btnaudio{ /*estilizo cada boton (audio,video,tablas) como quiero*/
+    color:rgb(237, 237, 237);
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid  rgb(97, 172, 168);;
+    background-color: rgb(97, 172, 168);
+    border-radius: 5px;
+    margin-left:10px;
+    margin-top:5%;
+    
+}
+
+.btnvideo{ 
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid  rgb(97, 172, 168);;
+    background-color: rgb(97, 172, 168);
+    border-radius: 5px;
+    margin-left:30%;
+}
+
+.btntaula{
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid  rgb(97, 172, 168);;
+    background-color: rgb(97, 172, 168);
+    border-radius: 5px;
+    margin-left:33%;
+}
+
+footer{ /*anclo el footer abajo de todo*/
+    position:absolute;
+    margin-top:10%;
+    color:black;
+}
+
+h1{ /*pongo los margenes ajustados a mis necesidades y meto el titulo en un rectangulo blanco para mas enfasis visual*/
+    margin-top:10px;
+    margin-left:33%;
+    margin-right:38%;
+    border: 2px solid rgb(255, 255, 255);
+
+}
+
+h2{
+    margin-left:33%;
+    margin-right:38%;
+    margin-bottom:10%;
+    font-size:20pt;
+    color:chartreuse;
+}
+
+#p1{ /*estilizo el selector id de mis dos parrafos*/
+    font-size:15pt;
+}
+
+#p2{
+    font-size:15pt;
+}
+
+.paisajes{ /*estilizo los enlaces de cada pagina a mi gusto (paisajes,animales y videojuegos)*/
+    color:chartreuse;
+    font-size:15pt;
+}
+
+.paisajes:hover{
+    color:crimson;
+}
+
+.animales{
+    color:chartreuse;
+    font-size:15pt;
+    margin-left:20%;
+}
+
+.animales:hover{
+    color:violet;
+}
+
+.videojuegos{
+    color:chartreuse;
+    font-size:15pt;
+    margin-left:18%;
+}
+
+.videojuegos:hover{
+    color:cyan;
+}
+
+.caracas{ /*estilizo el enlace del footer*/
+    color:black
+}
+
+.caracas:hover{ /*estilizo la pseudoclase de todos los enlaces existentes en mi web*/
+    color:brown
+}
+
+main{
+    color:whitesmoke;
+}
+
+aside{
+    margin-top:5%;
+}
+
+#relajacion{
+    color:white;
+    margin-top:15%;
+    font-weight: bold;
+    font-size: large;
+    font-family: sans-serif;
+}
+
+.beneficios li{ /*pongo a mi gusto la lista desordenada*/
+    margin-top:5%;
+    color:blue;
+    font-size:16pt;
+}
+
+
